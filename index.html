@@ -1,11 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="import" href="home.html">
+
+    <title>project</title>
+
 </head>
+
 <body>
-    <h1>Hello World Shubham</h1>
+    <div class="bg-image" style="
+          background-image: url('https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1294&q=80');
+          height: 100vh; position:absolute; width:100vw;
+        ">
+        <header>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <div clas="container">
+                    <a class="navbar-brand" href="#"><img
+                            src="https://th.bing.com/th/id/R.28d9841c1bec2a2a76db939073463928?rik=yhd7NV1z5KCncQ&riu=http%3a%2f%2fwww.osy85.fr%2fwp-content%2fuploads%2f2020%2f03%2flogo-APPY.jpg&ehk=q2wc8VtXJM8KtIUk7S6oPQHLhWgK5ZB88QtnRd38tCU%3d&risl=&pid=ImgRaw&r=0"
+                            width="50px"></a>
+                    <div class="navbar-brand text-white d-flex flex-direction-column">GYM</div>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mb-5" id="navbarSupportedContent">
+                    <ul class="nav">
+                        <li class="nav-item active">
+                            <a class="nav-item nav-link" href="#home">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+                <button type="button" class="btn btn-primary text-white mb-5">Sign-Up</button>
+            </nav>
+        </header>
+        <section id="gallery">
+            <div class="container">
+                <h1 class="heading text-warning display-4 font-weight-bold mb-5" style="-webkit-text-stroke:2px red">India's First Unisex Gym with Swimming
+                </h1>
+            </div>
+        </section>
+        <section id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="container-body">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100"
+                                            src="https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltJTIwaW1hZ2VkfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+                                            width=50% height="350rm" alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100"
+                                            src="https://plus.unsplash.com/premium_photo-1661690596989-d2fa45e16b2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGd5bSUyMGltYWdlZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                                            width=50% height="350rm" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100"
+                                            src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwaW1hZ2VkfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+                                            width=50% height="350rm" alt="Third slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100"
+                                            src="https://plus.unsplash.com/premium_photo-1661780329046-a81896f05aec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGd5bSUyMGltYWdlZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                                            width=50% height="350rm" alt="Second slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 border-dark" style="border-radius: 10px; backdrop-filter: blur(1px); max-width: fit-content;">
+                        <div class="card bg-transparent text-center mt-5 ">
+                            <h1 class="text-primary font-italic">It's ‘Time’ to Join ‘appy'</h1>
+                        </div>
+                        <div class="card-body text-white mt-3 mb-0 ">
+                            What makes Anytime Fitness the best gym in India? Anytime Fitness offers a personalized,
+                            accessible, and inclusive place for your workout!<br>Offering the opportunity to stay
+                            healthy to people from all walks of life, Anytime Fitness offers avant-garde equipment and
+                            the latest fitness trends to keep you motivated, no matter your level of fitness.
+                        </div>
+                        <div class="text-center">
+                        <button type="button" class="btn text-center text-success" style="background:transparent;  border-radius:40px; border:2px solid black"><a href="https://www.youtube.com/watch?v=C1C_jSkBh4Y&pp=ygUMZ3ltIGV4cGxvcmUg" target="_blank">Get a Tour</a></button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="pricing">
+        <div class="container text-black-100" style="margin-top:120px">
+            <div class="member text-center">
+                <h1>FOR MEMBERSHIP INQUIRY</h1>
+            </div>
+            <div class="member-body-button text-center">
+                <button type="button" class="btn btn-light" style="border-radius:10px; border:2px solid black ;color:black">Membership Inquiry</button>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 text-center">
+                    <img decoding="async" width="130" height="120" src="https://www.anytimefitness.co.in/wp-content/uploads/2021/12/brand-refresh-why-af-support-1.webp" class="attachment-full size-full wp-image-42660" alt="anytime fitness india af support" loading="lazy">
+                    <div class="font-weight-bold ">Support</div>
+                    <p>What happens when you enroll in the top membership in India? You get a free, personalized Get Started Plan when you join. Our friendly, professional staff is trained to help you along your fitness journey, no matter how much support you need.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img decoding="async" width="125" height="122" src="https://www.anytimefitness.co.in/wp-content/uploads/2021/12/brand-refresh-why-af-tools-and-training-1.webp" class="attachment-full size-full wp-image-42661" alt="anytime fitness india" loading="lazy">
+                    <div class="font-weight-bold">Tools & Training</div>
+                    <p class="">What happens when you enroll in the top membership in India? You get a free, personalized Get Started Plan when you join. Our friendly, professional staff is trained to help you along your fitness journey, no matter how much support you need.</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 text-center">
+                    <figure class="elementor-image-box-img"><img decoding="async" width="120" height="120" src="https://www.anytimefitness.co.in/wp-content/uploads/2021/12/brand-refresh-why-af-convenience-1.webp" class="attachment-full size-full wp-image-42662" alt="anytime fitness india" loading="lazy"></figure>
+                    <div class="font-weight-bold ">Convenience</div>
+                    <p>24/7 access to more than 4,500 locations worldwide and nearly 100 in India. You’re joining the most convenient gym with the best gym membership on the planet!</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <figure class="elementor-image-box-img"><img decoding="async" width="134" height="127" src="https://www.anytimefitness.co.in/wp-content/uploads/2021/12/brand-refresh-why-af-community-1.webp" class="attachment-full size-full wp-image-42663" alt="anytime fitness af community" loading="lazy"></figure>
+                    <div class="font-weight-bold">Community</div>
+                    <p class="">You’re not just joining a gym. You’re joining a supportive community of like-minded people who are here to give you the encouragement you need.</p>
+                </div>
+            </div>
+            <div class="text-center">
+            <button type="button" class="btn btn-info table-bordered bg-light mb-4" style="border-radius:10px; border:2px solid black ;color:black; text-align: center;">Find Your Local Appy GYM</button>
+            </div>
+        </div>
+    </section>
+    <footer id="contacts" class="bg-secondary py-3" style="border-radius:30px; width:100vw">
+        <div class="container bg-secondary mt-4" style="border-radius:10px; width:100vw">
+            <div class="row py-aut">
+                <div class="col-md-4">
+                    <h2>Company</h2>
+                    <p><a href="#">ABOUT US</a></p>
+                    <p><a href="#">PRESS RELEASE</a></p>
+                    <p><a href="#">EMPLOYEE WELLNESS</a></p>
+                    <p><a href="#">PRIVICY PLOICY</a></p>
+                    <p><a href="#">TERMS & CONDITION</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>GYMS</h2>
+                    <p><a href="#">FIND A GYM</a></p>
+                    <p><a href="#">OWN A GYM</a></p>
+                    <p><a href="#">FRANCHISE LOGIN</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>MEMBERS</h2>
+                    <p><a href="#">FAQ</a></p>
+                    <p><a href="#">CONTACTS</a></p>
+                    <p><a href="#">EVENT & GALLERY</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
